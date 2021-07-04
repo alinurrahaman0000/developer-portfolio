@@ -10,23 +10,37 @@ h1 {
 }
 section {
   display: flex;
+  margin-bottom: 155px;
 }
 .half-width {
   width: 50%;
   padding-left: 7%;
 }
-.half-width img {
-  width: 80%;
+img {
+  width: 75%;
+  margin-left: 64px;
+  margin-top: 70px;
 }
 .link-button {
   text-decoration: none;
-  padding: 10px 40px;
-  border-radius: 5px;
-  background-color: green;
+  padding: 20px 50px;
+  border-radius: 10px;
+  background-color: aqua;
   font-weight: 700px;
-  color: antiquewhite;
+  color: rgb(182, 108, 12);
+  width: 22px;
+  margin-top: 11px;
+  font-family: bold;
 }
 .top-banner {
   background-image: url(developer-portfolio/top-banner.png);
   background-repeat: no-repeat;
+}
+.dream-big {
+  background-image: url(developer-portfolio/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.aaaa {
+  margin-right: 150px;
 }
